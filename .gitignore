@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb
+.DS_Store
+.vscode/
+
+# Sphinx doc
+docs/build/*
+
+*.json
+*.wsd
+*.tar.gz
+
+# Packaging
+*.egg-info/
+*.egg
+dist/
