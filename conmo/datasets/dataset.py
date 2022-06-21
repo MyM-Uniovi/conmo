@@ -93,7 +93,8 @@ class RemoteDataset(Dataset):
     @abstractmethod
     def parse_to_package(self, raw_dir: str) -> None:
         """
-        Parse raw dataset to package format.
+        Parse raw dataset to package format. Data and labels must be saved in parquet format.
+        More information about parquet format: https://parquet.apache.org/
 
         Parameters
         ----------
@@ -196,19 +197,24 @@ class LocalDataset(Dataset):
     """
 
     def __init__(self, path: str) -> None:
+        """
+        Constructor of local dataset.
+
+        Parameters
+        ----------
+        path : str
+            Absolute path to the folder where the dataset is located in your disk.
+            See the example of batteries_degradation.py.
+        """
         super().__init__(self.__class__.__name__)
         self.path = path
 
 
     @abstractmethod
-    def load(self, raw_dir: str) -> None:
+    def load(self) -> None:
         """
-        Parse raw dataset to package format.
-
-        Parameters
-        ----------
-        raw_dir:
-            Directory where the dataset was originally stored.
+        Parse raw dataset to package format. Data and labels must be saved in parquet format.
+        More information about parquet format: https://parquet.apache.org/
         """
 
     @abstractmethod

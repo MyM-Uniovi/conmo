@@ -44,7 +44,7 @@ And then you will be able to open a Python interpreter and try running.
 
     import conmo
 
-Some TensroFlow warnings might come up if your computer doesn't have installed a GPU, although that's not a problem for running conmo.
+Some TensorFlow warnings might come up if your computer doesn't have installed a GPU, although that's not a problem for running Conmo.
 
 You can also install Conmo manually downloading the source code from the Github repository.
 
@@ -158,7 +158,7 @@ In this case with the predefined splitter of the Server Machine Dataset, Sklearn
 
 ``/data``
     This directory contains the various datasets that have already been imported (downloaded and parsed) and are therefore already available for use. 
-    They are stored in parquet format for better compression. For each of the subdatasets included in each dataset, there will be a data file and a labels file.
+    *They are stored in parquet format for better compression*. For each of the subdatasets included in each dataset, there will be a data file and a labels file.
 ``/experiments``
     This directory contains all the executions of an experiment in Conmo in chronological order. Each directory corresponds to an experiment and has in its name a 
     timestamp with the time and day when this experiment was run. Within each experiment directory there will be another one for each pipeline, and within this one 

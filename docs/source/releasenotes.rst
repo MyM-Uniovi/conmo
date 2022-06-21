@@ -4,6 +4,6 @@
 Release Notes
 =============
 
-Conmo 1.0.0 - beta
+Conmo 1.0.0 
 
 First publicly available version.
