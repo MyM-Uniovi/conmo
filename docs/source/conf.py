@@ -23,7 +23,7 @@ copyright = '2022, Grupo de Metrología y Modelos MyM - Universidad de Oviedo'
 author = 'Grupo de Metrología y Modelos (MyM)'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0.0'
+release = '1.0.1'
 
 
 # -- General configuration ---------------------------------------------------
