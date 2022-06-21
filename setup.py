@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name ='conmo',
-    version = '1.0.0',
+    version = '1.0.1',
     author = 'GrupoMyM',
     author_email = 'mym.inv.uniovi@gmail.com',
     url ='https://github.com/MyM-Uniovi/conmo',
