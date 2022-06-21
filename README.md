@@ -1,8 +1,9 @@
 # Conmo
 
 [![Documentation Status](https://readthedocs.org/projects/conmo/badge/?version=latest)](https://conmo.readthedocs.io/en/latest/?badge=latest)
+[![PyPI version](https://badge.fury.io/py/conmo.png)](https://badge.fury.io/py/conmo)
 
-[Documentation](https://conmo.readthedocs.io/en/latest/index.html)
+[Documentation](https://conmo.readthedocs.io/en/latest/index.html) | [PyPI Package](https://pypi.org/project/conmo/)
 
 Conmo is a framework developed in Python whose main objective is to facilitate the execution and comparison of different experiments mainly related to Anomaly Detection and Condition Monitoring problems.
 These experiments consist of a series of concatenated stages forming a pipeline architecture, i.e. the output of one stage is the input of the next one.
