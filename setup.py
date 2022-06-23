@@ -1,5 +1,10 @@
 from setuptools import setup, find_packages
 
+# Read the contents of README file
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
+
 setup(
     name ='conmo',
     version = '1.0.1',
@@ -13,6 +18,8 @@ setup(
         'Programming Language :: Python :: 3.7',
     ],
     license_files = 'GNU GPLv3',
+    long_description = long_description, 
+    long_description_content_type = 'text/markdown',
     description = 'Conmo is a framework developed in Python whose main objective \
             is to facilitate the execution and comparison of different anomaly detection and  experiments.',
     keywords = [

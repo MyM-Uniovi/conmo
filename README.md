@@ -2,6 +2,7 @@
 
 [![Documentation Status](https://readthedocs.org/projects/conmo/badge/?version=latest)](https://conmo.readthedocs.io/en/latest/?badge=latest)
 [![PyPI version](https://badge.fury.io/py/conmo.png)](https://badge.fury.io/py/conmo)
+[![Upload Python Package](https://github.com/MyM-Uniovi/conmo/actions/workflows/python-publish.yml/badge.svg)](https://github.com/MyM-Uniovi/conmo/actions/workflows/python-publish.yml)
 
 [Documentation](https://conmo.readthedocs.io/en/latest/index.html) | [PyPI Package](https://pypi.org/project/conmo/)
 
