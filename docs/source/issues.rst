@@ -13,3 +13,4 @@ Thanks in advance.
 
    "001_split", "Low", "There are some problems with the use of Scikit-Learn's Time Series Splitter in the experiments. We are working on resolving them."
    "002_rul", "Medium", "rul_rve.py example seems to be failing during the metric calculation step."
+   "003_tf", "Medium", "If your computer has one of the new Apple processors (M1 or M2) with ARM-based architecture, it is likely that when you try to use Conmo, the Tensorflow dependency will fail. To fix this temporarily you can install Conmo without dependencies: 'pip install --no-deps conmo' and then manually install the branch provided by Google for ARM architectures tensorflow-macos."

@@ -2,7 +2,7 @@ import os
 import sys
 
 # Add package to path (Uncomment only in case you have downloaded Conmo from github repository)
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+#sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import pandas as pd
 from sklearn.model_selection import PredefinedSplit

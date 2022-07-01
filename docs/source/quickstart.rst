@@ -60,6 +60,8 @@ Then if you haven't prepared manually a conda enviroment, you can execute the sh
     cd scripts
     ./install_conmo_conda.sh conda_env_name
 
+If your operating system is MacOS, please, check :ref:`Known issues & Limitations section <issues>` for more information about compatibility of Conmo with Apple M1 and M2 CPUs.
+
 If your operating system is not Unix-like and you are using Windows 10/11 OS you can create the Conda enviroment manually or use the Windows Subsytem for Linux (WSL) tool.
 For more information about its installation, please refer to `Microsoft's official documentation. <https://docs.microsoft.com/en-us/windows/wsl/install>`_.
 
