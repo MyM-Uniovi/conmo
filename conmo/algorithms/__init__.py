@@ -4,6 +4,7 @@ from conmo.algorithms.keras_autoencoder import KerasAutoencoder
 from conmo.algorithms.random_forest import PretrainedRandomForest
 from conmo.algorithms.multilayer_perceptron import PretrainedMultilayerPerceptron
 from conmo.algorithms.cnn_1d import PretrainedCNN1D
+from conmo.algorithms.skipgram_perplex import SkipGramPerplexity
 
 __all__ = [
     'PCAMahalanobis',
@@ -11,5 +12,6 @@ __all__ = [
     'KerasAutoencoder',
     'PretrainedRandomForest',
     'PretrainedMultilayerPerceptron',
-    'PretrainedCNN1D'
+    'PretrainedCNN1D',
+    'SkipGramPerplexity'
 ]

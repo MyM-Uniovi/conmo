@@ -5,6 +5,7 @@ from conmo.preprocesses.savitzky_golay_filter import SavitzkyGolayFilter
 from conmo.preprocesses.sequence_windowing import SequenceWindowing
 from conmo.preprocesses.simple_exponential_smoothing import SimpleExponentialSmoothing
 from conmo.preprocesses.sklearn_preprocess import SklearnPreprocess
+from conmo.preprocesses.discretize_dataset import DiscretizeDataset
 
 __all__ = [
     'Binarizer',
@@ -13,5 +14,6 @@ __all__ = [
     'SavitzkyGolayFilter',
     'SequenceWindowing',
     'SimpleExponentialSmoothing',
-    'SklearnPreprocess'
+    'SklearnPreprocess',
+    'DiscretizeDataset'
 ]
